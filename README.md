@@ -69,6 +69,7 @@ conference-knowledge is authoritative for these. This table is a snapshot.
 | `AGENTS.md` | Repo rules for coding agents, test command, where things live |
 | `CLAUDE.md` | Symlink to `AGENTS.md`, so Claude Code loads the same rules |
 | `tests/test_abstract.py` | Checks title agreement, the Sessionize description limit, this table, the talks-knowledge pointers, the lightning cut's submission line and stated lengths, and the `CLAUDE.md` symlink |
+| `tests/test_cncf_status.py` | Checks that every copy calling gVisor non-CNCF carries the dated 2026-09-28 Sandbox correction, and that the plan names gVisor a CNCF Sandbox project for the scoreboard and deck |
 | `PROJECT_STATE.md` | Current phase, open decisions, next steps |
 | `decisions.md` | Append-only decision log |
 

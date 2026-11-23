@@ -55,3 +55,14 @@ with the Accenture LearnVantage bio; his current short title is "AI Workforce
 Transformation Lead, FDE and AI-Native Programs, Accenture LearnVantage"
 (personal-knowledge#60, mrf-knowledge#26). The bio in `abstract/kubecon-eu-2027-session.md`
 is the older KodeKloud version; use the profile bio.
+
+## gVisor's CNCF status (correction of 2026-11-23, issue #14)
+
+The lightning talk's "Open Source Projects Used" field, as entered on 2026-10-18 and kept
+in talk 5 of the talks-knowledge field sheet, lists gVisor under "Open source, not CNCF".
+CNCF accepted gVisor as a Sandbox project on 2026-09-28 (CNCF's Sandbox list,
+https://www.cncf.io/sandbox-projects/, read 2026-11-23: "gVisor (accepted to CNCF on
+9/28/2026)"). Kata Containers is still not a CNCF project. The field stays on Sessionize as
+submitted while the talk is In Evaluation (talks-knowledge #252, which carries the dated
+correction beside the field). On stage, in the scoreboard and in the deck, gVisor is a
+CNCF Sandbox project.

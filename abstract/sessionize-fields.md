@@ -49,6 +49,12 @@ Coding agents are moving off laptops and onto Kubernetes, and kubernetes-sigs/ag
 
 The harness, SandboxTemplates, policies and raw results are published in a public repository before the talk, so anyone can rerun the scoreboard on their own cluster or add a technique. All techniques are public and run against isolated lab clusters, and gaps found in agent-sandbox are filed upstream with SIG Apps. gVisor and Kata Containers, the two strongest runtime options, are open source projects outside the CNCF, and the session says so.
 
+> Correction of 2026-11-23 (issue #14), not entered on Sessionize: the sentence above no
+> longer holds for gVisor, which CNCF accepted as a Sandbox project on 2026-09-28
+> (https://www.cncf.io/sandbox-projects/). Kata Containers is still outside the CNCF.
+> The paragraph stays as submitted; see the correction under "Relevant CNCF/Open Source
+> Projects".
+
 ## Case study?
 
 No
@@ -60,6 +66,16 @@ No
 ## Relevant CNCF/Open Source Projects
 
 Kubernetes (kubernetes-sigs/agent-sandbox, RuntimeClass, user namespaces), Kyverno, Cilium, Envoy, SPIFFE/SPIRE, Falco, runc, gVisor (not CNCF), Kata Containers on QEMU and Firecracker (not CNCF)
+
+> Correction of 2026-11-23 (issue #14), not entered on Sessionize: gVisor is a CNCF
+> Sandbox project, accepted 2026-09-28. Source: CNCF's Sandbox list,
+> https://www.cncf.io/sandbox-projects/, read 2026-11-23: "gVisor (accepted to CNCF on
+> 9/28/2026)"; cncf/landscape gives it `project: sandbox`. Kata Containers is still not a
+> CNCF project. The line above is the text as submitted and stays on Sessionize while the
+> session is In Evaluation (talks-knowledge #252). The acceptance predates the 2026-10-11
+> submission, so the line was already wrong when entered. On stage, in the scoreboard and
+> in the deck, gVisor is a CNCF Sandbox project. The same correction applies to the last
+> sentence of "Value to the community" above.
 
 ## Additional resources
 

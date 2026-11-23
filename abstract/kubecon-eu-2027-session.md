@@ -31,6 +31,11 @@ Coding agents are moving off laptops and onto Kubernetes, and kubernetes-sigs/ag
 
 The harness, SandboxTemplates, policies and raw results are published in a public repository before the talk, so anyone can rerun the scoreboard on their own cluster or add a technique. All techniques are public and run against isolated lab clusters, and gaps found in agent-sandbox are filed upstream with SIG Apps. gVisor and Kata Containers, the two strongest runtime options, are open source projects outside the CNCF, and the session says so.
 
+> Correction of 2026-11-23 (issue #14): this sentence no longer holds for gVisor, which
+> CNCF accepted as a Sandbox project on 2026-09-28 (https://www.cncf.io/sandbox-projects/).
+> Kata Containers is still outside the CNCF. The paragraph stays as submitted; see the
+> correction under "Relevant CNCF/Open Source Projects".
+
 ## Case study?
 
 No. This is a technical demonstration on purpose-built clusters. The incidents are public disclosures used as the attack catalog.
@@ -50,6 +55,16 @@ No. This is original content for KubeCon EU 2027.
 - runc (OCI)
 - gVisor (Google, open source, not CNCF)
 - Kata Containers (OpenInfra Foundation, not CNCF), on QEMU and Firecracker
+
+> Correction of 2026-11-23 (issue #14): gVisor is a CNCF Sandbox project, accepted
+> 2026-09-28. Source: CNCF's Sandbox list, https://www.cncf.io/sandbox-projects/, read
+> 2026-11-23: "gVisor (accepted to CNCF on 9/28/2026)"; cncf/landscape gives it
+> `project: sandbox`. Kata Containers is still not a CNCF project. The list above is the
+> v6 text as submitted and stays on Sessionize while the session is In Evaluation
+> (talks-knowledge #252); the acceptance predates the 2026-10-11 submission. On stage, in
+> the scoreboard and in the deck, gVisor is a CNCF Sandbox project. This also corrects the
+> last sentence of "Value to the community" and the "non-CNCF pieces" bullet below: of the
+> two runtimes, only Kata is outside the CNCF.
 
 ## Speaker Bio
 
@@ -76,7 +91,7 @@ record: `research/2026-10-11-verification.md`.
 | agent-sandbox at v1.0 | v1.0.0 2026-08-28; latest v1.0.6 2026-10-08 |
 | Claim-time identity and network policy are Planned | agent-sandbox roadmap.md, read 2026-10-11 |
 | "Prevents escape even with root access" | Platform-First AI Agent Security abstract, KubeCon NA 2026 schedule |
-| CNCF statuses | cncf/landscape, read 2026-10-11 |
+| CNCF statuses | cncf/landscape, read 2026-10-11. gVisor corrected 2026-11-23: CNCF Sandbox since 2026-09-28 (cncf.io/sandbox-projects/) |
 
 Open items:
 

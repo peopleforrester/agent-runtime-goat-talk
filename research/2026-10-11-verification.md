@@ -69,6 +69,15 @@ as false).
 | urunc | Sandbox | 2025-05-22 | cncf/landscape |
 | gVisor, Kata Containers | Not CNCF | n/a | Google OSS; OpenInfra Foundation |
 
+Correction of 2026-11-23 (issue #14): the gVisor half of the last row was wrong when it
+was written. CNCF accepted gVisor as a Sandbox project on 2026-09-28, two weeks before
+this check. The 2026-10-11 pass did not catch it.
+
+| Project | Status | Date | Source |
+|---|---|---|---|
+| gVisor | Sandbox | 2026-09-28 | https://www.cncf.io/sandbox-projects/, read 2026-11-23 by this repo's run: "gVisor (accepted to CNCF on 9/28/2026)", under Container Runtime; also read 2026-11-21 by terminal-agents-as-a-service-talk (its F14, issue #13) and 2026-11-23 by talks-knowledge (#252); cncf/landscape gives it `project: sandbox` |
+| Kata Containers | Not CNCF | n/a | Not on the CNCF Sandbox list, read 2026-11-23; OpenInfra Foundation |
+
 ## CFP (KubeCon + CloudNativeCon Europe 2027)
 
 | Item | Fact | Source |

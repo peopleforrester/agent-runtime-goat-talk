@@ -31,6 +31,11 @@ through-the-boundary CVEs. Scoreboard of stopped, detected, or missed per attack
 runtime alone, then with Kyverno, Cilium FQDN egress, and Falco. Harness, SandboxTemplates,
 policies, and raw results to be published in a public repo before the talk.
 
+CNCF status on stage, in the scoreboard and in the deck: gVisor is a CNCF Sandbox project
+(accepted 2026-09-28, cncf.io/sandbox-projects/); Kata Containers is not a CNCF project.
+The submitted v6 fields say gVisor is "not CNCF" and stay as submitted with a dated
+correction beside them (issue #14, decisions.md 2026-11-23).
+
 Next steps:
 1. Wait for CFP notification, due 2026-12-07.
 2. On acceptance, plan the harness build (Phase 1.2 for the demo work).
@@ -68,3 +73,4 @@ Next steps:
 - 2026-10-16 1.2 · attribution (issue #10): questions 66, 70 and 78 were decided by hecaton's research under Michael's standing rules, not by Michael; correction appended to decisions.md
 - 2026-10-17 1.2 · lightning cut (issue #11): `abstract/securitycon-eu-2027-lightning.md` tracks the Open Source SecurityCon submission; abstract stays in talks-knowledge; not submitted as of 2026-10-17, awaiting Michael
 - 2026-10-19 1.2 · lightning cut submitted (issue #11, question 178): Sessionize confirmation of 2026-10-18 16:27 UTC found; title and description as submitted recorded in `abstract/securitycon-eu-2027-lightning.md`
+- 2026-11-23 1.2 · gVisor CNCF status (issue #14): CNCF Sandbox since 2026-09-28; submitted abstract copies keep their text with a dated correction, research notes and the verification record corrected, scoreboard and deck to name gVisor a CNCF Sandbox project

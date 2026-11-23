@@ -240,3 +240,29 @@ The mail also gives the co-located dates: reviews begin 2026-10-22 and speaker
 notifications go out Monday 2026-12-14, a week after the main session's (2026-12-07). The
 open decision stays: if the main session is accepted, keep the lightning talk as a preview
 or withdraw it.
+
+## 2026-11-23 · 1.2 · gVisor is a CNCF Sandbox project; submitted text stands with a dated correction (issue #14)
+
+Issue #14, filed from talks-knowledge #252. CNCF accepted gVisor as a Sandbox project on
+2026-09-28. CNCF's Sandbox list, https://www.cncf.io/sandbox-projects/, reads "gVisor
+(accepted to CNCF on 9/28/2026)" (read by this repo's run on 2026-11-23, and by
+talks-knowledge and the terminal-agents-as-a-service-talk repo, its F14 under its issue
+#13), and cncf/landscape gives it `project: sandbox`. Kata Containers is still not a CNCF
+project. The CNCF status table in `research/2026-10-11-verification.md` said "Not CNCF"
+for gVisor, which was already wrong on 2026-10-11.
+
+Decision: the submitted text is not changed. `abstract/sessionize-fields.md` and
+`abstract/kubecon-eu-2027-session.md` keep the v6 project list and the "outside the CNCF"
+sentence as entered on Sessionize, each with a dated correction beside it, following
+talks-knowledge #252 (submitted Sessionize fields are not edited while In Evaluation).
+The lightning record gets the same note for its submitted field. The 2026-10-10 research
+notes and the verification record are not submitted text; they are marked in place with
+the correction and the corrected rows.
+
+On stage, in the scoreboard and in the deck, gVisor is named a CNCF Sandbox project
+(accepted 2026-09-28) and Kata Containers the one runtime outside the CNCF. Neither the
+scoreboard nor the deck exists yet; this entry and `PROJECT_STATE.md` carry the rule to
+them when they are built. The thesis line "pure CNCF breaks at the isolation layer" now
+breaks at Kata, not at gVisor. If the session is accepted (notification due 2026-12-07),
+the gVisor line on Sessionize is corrected then, alongside any other post-acceptance
+edits.
