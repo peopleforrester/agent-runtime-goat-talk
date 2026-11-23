@@ -68,3 +68,4 @@ Next steps:
 - 2026-10-16 1.2 · attribution (issue #10): questions 66, 70 and 78 were decided by hecaton's research under Michael's standing rules, not by Michael; correction appended to decisions.md
 - 2026-10-17 1.2 · lightning cut (issue #11): `abstract/securitycon-eu-2027-lightning.md` tracks the Open Source SecurityCon submission; abstract stays in talks-knowledge; not submitted as of 2026-10-17, awaiting Michael
 - 2026-10-19 1.2 · lightning cut submitted (issue #11, question 178): Sessionize confirmation of 2026-10-18 16:27 UTC found; title and description as submitted recorded in `abstract/securitycon-eu-2027-lightning.md`
+- 2026-11-23 1.2 · gVisor's CNCF status (issue #15): gVisor is a CNCF Sandbox project since 2026-09-28; submitted Sessionize text kept as entered with dated corrections, working copies and research notes corrected; on stage and in the scoreboard gVisor is CNCF Sandbox, and the "pure CNCF" line falls at Kata

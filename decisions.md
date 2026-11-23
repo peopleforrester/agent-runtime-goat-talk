@@ -277,3 +277,17 @@ and this issue: the error undersells the talk's CNCF footing, so no reviewer is 
 favor, and an edit during review may not be allowed or seen. If the session is accepted
 (notification 2026-12-07), the gVisor line is corrected on Sessionize in the
 post-acceptance pass.
+
+## 2026-11-23 · 1.2 · gVisor correction finished on the normal lane; lightning record points at it (#15)
+
+Run 38611 made the correction above on the doc lane; its new test file moved the issue to
+the normal lane, and run 38643 finished it from that draft. The "read again by this run"
+in the entry above was run 38611; run 38643 read cncf.io/sandbox-projects/ again on
+2026-11-23 and found the same line, "gVisor (accepted to CNCF on 9/28/2026)", under
+Container Runtime, with no Kata Containers entry.
+
+**Decision:** `abstract/securitycon-eu-2027-lightning.md` gets a dated "gVisor's CNCF
+status" section. Its recorded title and description make no CNCF claim, but the "Open
+Source Projects Used" field entered for the lightning talk lists gVisor as "not CNCF", and
+that field lives only in talks-knowledge, which corrected it there for #252. The section
+says so, so a deck built from this file starts from the right status.

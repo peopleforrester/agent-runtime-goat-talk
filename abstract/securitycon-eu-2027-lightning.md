@@ -42,6 +42,16 @@ text Michael entered from (674 characters). The confirmation mail carries only t
 and this repo's runs cannot open the Sessionize dashboard, so the description has not been
 checked against the dashboard. The CFP is closed, so the submitted text no longer changes.
 
+## gVisor's CNCF status (2026-11-23, #15)
+
+gVisor is a CNCF Sandbox project, accepted 2026-09-28 (cncf.io/sandbox-projects/, read
+2026-11-23: "gVisor (accepted to CNCF on 9/28/2026)"). Kata Containers is still not a
+CNCF project. The title and description above make no claim about it, but the "Open
+Source Projects Used" field entered for this talk lists gVisor under "Open source, not
+CNCF". talks-knowledge keeps that field as entered, with a dated correction under it
+(its decisions.md entry of 2026-11-23 for #252). On stage and in the scoreboard, gVisor
+is a CNCF Sandbox project.
+
 ## Next decision
 
 Main session notifications are due 2026-12-07, a week before the co-located ones
