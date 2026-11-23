@@ -240,3 +240,40 @@ The mail also gives the co-located dates: reviews begin 2026-10-22 and speaker
 notifications go out Monday 2026-12-14, a week after the main session's (2026-12-07). The
 open decision stays: if the main session is accepted, keep the lightning talk as a preview
 or withdraw it.
+
+## 2026-11-23 · 1.2 · gVisor is a CNCF Sandbox project; the submitted text stands with a dated correction (#15)
+
+From peopleforrester/talks-knowledge#252. CNCF accepted gVisor as a Sandbox project on
+2026-09-28. CNCF's Sandbox list (https://www.cncf.io/sandbox-projects/), read again by
+this run on 2026-11-23, reads "gVisor (accepted to CNCF on 9/28/2026)" under Container
+Runtime, and cncf/landscape gives it `project: sandbox`. Kata Containers is still not a
+CNCF project and is absent from that list. The acceptance predates the 2026-10-10
+research, the 2026-10-11 verification and the submission, so "gVisor (not CNCF)" was
+wrong when it was written and when it was entered on Sessionize.
+
+**Decision:** the Sessionize fields are not edited while the talk is In Evaluation,
+matching talks-knowledge's decision of 2026-11-23 for #252. In this repo:
+
+- `abstract/sessionize-fields.md` keeps the "Value to the community" paragraph and the
+  "Relevant CNCF/Open Source Projects" line as entered, each with a dated correction
+  note below it.
+- `abstract/kubecon-eu-2027-session.md` keeps the submitted "Value to the community"
+  paragraph with the same note. Its project list is the working copy, not the entered
+  field, so gVisor's bullet now reads "CNCF Sandbox, accepted 2026-09-28", with a dated
+  note saying what v6 had.
+- The two 2026-10-10 research notes (`cfp-landscape-and-concepts`,
+  `stack-and-talk-ideas-summary`) and the 2026-10-11 verification record are left as
+  researched, with a dated marker at each claim and a correction block where the claim is
+  made.
+- `tests/test_gvisor_cncf_status.py` fails if any text under `abstract/` or `research/`
+  calls gVisor non-CNCF without a dated correction, or if the submitted text is altered.
+
+On stage, in the deck and in the scoreboard, gVisor is a CNCF Sandbox project; the "where
+pure CNCF ends" line falls at Kata Containers. No slide or scoreboard text exists in the
+repo yet, so the deck starts from the corrected status.
+
+**Why:** the submitted-text rule set in talks-knowledge by question 455 and issue #86,
+and this issue: the error undersells the talk's CNCF footing, so no reviewer is misled in its
+favor, and an edit during review may not be allowed or seen. If the session is accepted
+(notification 2026-12-07), the gVisor line is corrected on Sessionize in the
+post-acceptance pass.

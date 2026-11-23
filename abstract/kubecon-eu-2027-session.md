@@ -31,6 +31,12 @@ Coding agents are moving off laptops and onto Kubernetes, and kubernetes-sigs/ag
 
 The harness, SandboxTemplates, policies and raw results are published in a public repository before the talk, so anyone can rerun the scoreboard on their own cluster or add a technique. All techniques are public and run against isolated lab clusters, and gaps found in agent-sandbox are filed upstream with SIG Apps. gVisor and Kata Containers, the two strongest runtime options, are open source projects outside the CNCF, and the session says so.
 
+> Correction of 2026-11-23 (#15), not entered on Sessionize: gVisor is a CNCF Sandbox
+> project, accepted 2026-09-28 (cncf.io/sandbox-projects/, read 2026-11-23: "gVisor
+> (accepted to CNCF on 9/28/2026)"). Kata Containers is still not a CNCF project. The
+> paragraph above is the v6 text as submitted and stays on Sessionize as it is while the
+> talk is In Evaluation. On stage and in the scoreboard, gVisor is a CNCF Sandbox project.
+
 ## Case study?
 
 No. This is a technical demonstration on purpose-built clusters. The incidents are public disclosures used as the attack catalog.
@@ -48,8 +54,13 @@ No. This is original content for KubeCon EU 2027.
 - SPIFFE / SPIRE (Graduated)
 - Falco (Graduated)
 - runc (OCI)
-- gVisor (Google, open source, not CNCF)
+- gVisor (Google, open source; CNCF Sandbox, accepted 2026-09-28)
 - Kata Containers (OpenInfra Foundation, not CNCF), on QEMU and Firecracker
+
+Corrected 2026-11-23 (#15): v6 listed gVisor here as "Google, open source, not CNCF".
+CNCF accepted gVisor as a Sandbox project on 2026-09-28 (cncf.io/sandbox-projects/, read
+2026-11-23). This list is the working copy; the field as entered on Sessionize is kept
+word for word, with its own correction, in `abstract/sessionize-fields.md`.
 
 ## Speaker Bio
 

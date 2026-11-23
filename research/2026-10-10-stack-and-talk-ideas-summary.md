@@ -8,7 +8,7 @@ Condensed from the three 2026-10-10 research files in this directory.
 |---|---|---|
 | Orchestration | agent-sandbox v1.0.x (Sandbox, SandboxTemplate, SandboxClaim, SandboxWarmPool) | Kubernetes SIG Apps |
 | Container runtime | containerd + RuntimeClass | Graduated |
-| Isolation boundary | gVisor or Kata (best options, not CNCF); KubeVirt / urunc / Confidential Containers are the CNCF-hosted alternatives | KubeVirt incubating, urunc sandbox, CoCo incubating |
+| Isolation boundary | gVisor or Kata (best options, not CNCF [corrected 2026-11-23, #15: gVisor is a CNCF Sandbox project since 2026-09-28; Kata is still not CNCF]); KubeVirt / urunc / Confidential Containers are the CNCF-hosted alternatives | KubeVirt incubating, urunc sandbox, CoCo incubating |
 | Workload identity | SPIFFE/SPIRE | Graduated |
 | Credentials | Never in the sandbox; injected at the egress proxy. cert-manager for short-lived certs, External Secrets Operator for sync | cert-manager graduated, ESO sandbox |
 | Egress | Cilium FQDN default-deny + Envoy or Istio ambient egress gateway | Graduated |
