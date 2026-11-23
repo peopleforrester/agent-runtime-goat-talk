@@ -31,6 +31,15 @@ Coding agents are moving off laptops and onto Kubernetes, and kubernetes-sigs/ag
 
 The harness, SandboxTemplates, policies and raw results are published in a public repository before the talk, so anyone can rerun the scoreboard on their own cluster or add a technique. All techniques are public and run against isolated lab clusters, and gaps found in agent-sandbox are filed upstream with SIG Apps. gVisor and Kata Containers, the two strongest runtime options, are open source projects outside the CNCF, and the session says so.
 
+> Correction of 2026-11-23 (issue #13), not entered on Sessionize: of the two runtimes,
+> only Kata Containers is outside the CNCF. CNCF accepted gVisor as a Sandbox project on
+> 2026-09-28 (cncf.io/sandbox-projects/, read 2026-11-23: "gVisor (accepted to CNCF on
+> 9/28/2026)"), before this text went in on 2026-10-11, so the sentence above was wrong
+> when submitted. It stays on Sessionize as submitted while session 1358632 is In
+> Evaluation, as talks-knowledge#252 decided on 2026-11-23. On the stage, in the deck and
+> on the scoreboard, gVisor is a CNCF Sandbox project and Kata Containers is open source
+> outside the CNCF.
+
 ## Case study?
 
 No. This is a technical demonstration on purpose-built clusters. The incidents are public disclosures used as the attack catalog.
@@ -50,6 +59,13 @@ No. This is original content for KubeCon EU 2027.
 - runc (OCI)
 - gVisor (Google, open source, not CNCF)
 - Kata Containers (OpenInfra Foundation, not CNCF), on QEMU and Firecracker
+
+> Correction of 2026-11-23 (issue #13), not entered on Sessionize: gVisor is a CNCF
+> Sandbox project, accepted 2026-09-28 (cncf.io/sandbox-projects/, read 2026-11-23:
+> "gVisor (accepted to CNCF on 9/28/2026)"). Kata Containers is still not a CNCF project.
+> The gVisor line above is the text as submitted and stays on Sessionize while the talk is In
+> Evaluation (talks-knowledge#252). If the talk is accepted (notifications 2026-12-07),
+> correct gVisor's entry on Sessionize to CNCF Sandbox.
 
 ## Speaker Bio
 

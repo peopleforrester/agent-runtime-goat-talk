@@ -240,3 +240,31 @@ The mail also gives the co-located dates: reviews begin 2026-10-22 and speaker
 notifications go out Monday 2026-12-14, a week after the main session's (2026-12-07). The
 open decision stays: if the main session is accepted, keep the lightning talk as a preview
 or withdraw it.
+
+## 2026-11-23 · 1.2 · gVisor is a CNCF Sandbox project; the submitted Sessionize text stands with dated corrections (issue #13)
+
+CNCF accepted gVisor as a Sandbox project on 2026-09-28. Its Sandbox list at
+cncf.io/sandbox-projects/ reads "gVisor (accepted to CNCF on 9/28/2026)", read by this
+run on 2026-11-23. Kata Containers is not on that list and is still not a CNCF project.
+The main-CFP session 1358632 went in on 2026-10-11 calling gVisor "not CNCF" in two
+fields, so those fields were wrong when entered; the 2026-10-11 verification missed it.
+
+**Decision:** the Sessionize fields of session 1358632 are not edited while the talk is
+In Evaluation, following talks-knowledge#252 (2026-11-23) and the standing rule it cites
+for submitted text (talks-knowledge question 455 and #86). This repo's copies keep the
+text as submitted, with a dated correction under the "Value to the community" sentence and
+under the projects field in both `abstract/sessionize-fields.md` and
+`abstract/kubecon-eu-2027-session.md`. The 2026-10-10 research notes keep their wording
+and carry dated corrections. The CNCF status table in `research/2026-10-11-verification.md`
+now gives gVisor as Sandbox and Kata Containers as not CNCF, on separate rows. The deck and
+the scoreboard, not built yet, label gVisor "CNCF Sandbox". If the talk is accepted
+(notifications 2026-12-07), the gVisor entries on Sessionize are corrected then.
+
+**Why:** the error understates the talk's CNCF footing, so no reviewer is misled in its
+favor, and neither the title nor the description makes the claim. An edit during review
+may not be allowed or seen.
+
+### REJECTED: Rewriting the 2026-10-10 research notes in place
+**Why:** they are dated snapshots; a dated correction keeps what was believed then and
+states the current fact next to it.
+

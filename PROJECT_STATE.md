@@ -44,6 +44,11 @@ Next steps:
    2026-10-18 (question 178), recorded in `abstract/securitycon-eu-2027-lightning.md`.
    Co-located notifications are due 2026-12-14. If the main session is accepted
    (2026-12-07), decide whether the lightning talk stays as a preview or is withdrawn.
+5. gVisor's CNCF status (issue #13): gVisor has been a CNCF Sandbox project since
+   2026-09-28. The deck and the scoreboard label it "CNCF Sandbox"; Kata Containers stays
+   "open source, not CNCF". On acceptance, correct the gVisor entries in the Sessionize
+   "Relevant CNCF/Open Source Projects" and "Value to the community" fields of session
+   1358632, which still say "not CNCF" as submitted.
 
 ## Branch & Tests
 - Branch: staging
@@ -68,3 +73,4 @@ Next steps:
 - 2026-10-16 1.2 · attribution (issue #10): questions 66, 70 and 78 were decided by hecaton's research under Michael's standing rules, not by Michael; correction appended to decisions.md
 - 2026-10-17 1.2 · lightning cut (issue #11): `abstract/securitycon-eu-2027-lightning.md` tracks the Open Source SecurityCon submission; abstract stays in talks-knowledge; not submitted as of 2026-10-17, awaiting Michael
 - 2026-10-19 1.2 · lightning cut submitted (issue #11, question 178): Sessionize confirmation of 2026-10-18 16:27 UTC found; title and description as submitted recorded in `abstract/securitycon-eu-2027-lightning.md`
+- 2026-11-23 1.2 · gVisor's CNCF status (issue #13): gVisor is CNCF Sandbox since 2026-09-28; submitted Sessionize text stands with dated corrections in `abstract/`, research notes annotated, verification record corrected, deck and scoreboard to say CNCF Sandbox

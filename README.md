@@ -78,3 +78,11 @@ The research files are dated 2026-10-10 and carry their own caveats. Items flagg
 there as unverified (several NA 2026 speakers, the "Detonation and Isolation" abstract,
 agent-sandbox maintainer names, ToolHive's CNCF status, secondhand escape reports) must
 be checked against primary sources before they appear in the abstract or on a slide.
+
+gVisor's CNCF status (issue #13, 2026-11-23): CNCF accepted gVisor as a Sandbox project
+on 2026-09-28 (cncf.io/sandbox-projects/, read 2026-11-23). Kata Containers is still not
+a CNCF project. The deck and the scoreboard label gVisor "CNCF Sandbox" and Kata
+Containers "open source, not CNCF". The submitted Sessionize text calls gVisor "not CNCF";
+it stays as submitted while the talk is In Evaluation (talks-knowledge#252), with a dated
+correction under each affected field in `abstract/`, and is corrected on Sessionize if the
+talk is accepted.

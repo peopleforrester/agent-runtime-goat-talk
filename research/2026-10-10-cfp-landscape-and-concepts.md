@@ -2,6 +2,14 @@
 
 **The most urgent finding: the KubeCon + CloudNativeCon Europe 2027 (Barcelona, 15–18 March 2027) CFP closes Sunday 11 October 2026 at 11:59 PM CEST — roughly 36 hours from now — and CNCF rules mean you can be listed on at most three proposals and selected for only one non-panel session, so a third talk competes directly with your two existing ones.** The strongest differentiated angle is an adversarial, measured "red team the sandbox" talk that treats agent-sandbox as necessary-but-insufficient and shows which CNCF layers actually stop the 2026 bypass classes; the "zero-trust reference architecture with agent-sandbox" angle is already taken at KubeCon NA 2026.
 
+> Correction of 2026-11-23 (issue #13): CNCF accepted gVisor as a Sandbox project on
+> 2026-09-28 (cncf.io/sandbox-projects/, read 2026-11-23: "gVisor (accepted to CNCF on
+> 9/28/2026)"). This file keeps its 2026-10-10 wording, so wherever it calls gVisor "not
+> CNCF" or puts it past the end of "pure CNCF", read gVisor as CNCF Sandbox: the TL;DR
+> bullet on "pure CNCF", the isolation runtime row of the stack table, the
+> interpretation under that table, and recommendation 4. Kata Containers is still not a
+> CNCF project, so the isolation layer still has a non-CNCF option.
+
 ## TL;DR
 
 - **Logistics dominate the decision.** EU 2027 main CFP closes 11 Oct 2026 (notifications 7 Dec, schedule 9 Dec); CNCF-hosted co-located events (Cloud Native AI + Inference Day, Agentics Day: MCP + Agents, Open Source SecurityCon, etc.) close 18 Oct 2026; Cloud Native Rejekts EU 2027 (13–14 March, Barcelona) CFP runs 7 Dec 2026 – 3 Jan 2027. Because only one non-panel session per speaker can be accepted at the main event, submit the third talk to the main CFP only if it is stronger than one of your existing two — otherwise aim it at a co-located event or Rejekts.

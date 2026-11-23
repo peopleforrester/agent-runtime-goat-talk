@@ -67,7 +67,14 @@ as false).
 | Confidential Containers | Incubating | 2026-07-08 | cncf/landscape; CNCF blog 2026-07-22 |
 | KubeVirt | Incubating | 2022-04-19 | cncf/landscape |
 | urunc | Sandbox | 2025-05-22 | cncf/landscape |
-| gVisor, Kata Containers | Not CNCF | n/a | Google OSS; OpenInfra Foundation |
+| gVisor | **Corrected** 2026-11-23: Sandbox (this check of 2026-10-11 said Not CNCF) | accepted 2026-09-28 | cncf.io/sandbox-projects/, read 2026-11-23: "gVisor (accepted to CNCF on 9/28/2026)" |
+| Kata Containers | Not CNCF | n/a | OpenInfra Foundation; not on cncf.io/sandbox-projects/ when read 2026-11-23 |
+
+The 2026-10-11 row gave "gVisor, Kata Containers: Not CNCF", and the abstract's gVisor
+entries were checked against it. CNCF had accepted gVisor on 2026-09-28, so the gVisor
+half was already wrong on 2026-10-11 (issue #13, talks-knowledge#252). The submitted
+abstract keeps the wrong text with a dated correction under each field; the stage, the
+deck and the scoreboard use CNCF Sandbox.
 
 ## CFP (KubeCon + CloudNativeCon Europe 2027)
 

@@ -20,6 +20,11 @@ Condensed from the three 2026-10-10 research files in this directory.
 | Agent framework | kagent (agent loop outside the sandbox) | Sandbox |
 | Multi-tenancy | Namespace per tenant + Capsule | Sandbox |
 
+> Correction of 2026-11-23 (issue #13): the isolation boundary row above is wrong for
+> gVisor. CNCF accepted gVisor as a Sandbox project on 2026-09-28
+> (cncf.io/sandbox-projects/, read 2026-11-23). Kata Containers is still not a CNCF
+> project.
+
 ## Talk ideas built on what people are struggling with now
 
 1. **Red Team the Sandbox.** None of the 2026 coding-agent escapes broke a hypervisor. They went around the sandbox through config files, symlinks, Docker sockets, allowlisted commands and DNS. The talk would replay each technique against a default agent-sandbox setup and a hardened one, with a live scoreboard showing which CNCF layer stopped, caught or missed each attack.
